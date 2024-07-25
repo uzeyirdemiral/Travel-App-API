@@ -1,0 +1,8 @@
+# node_modules dizinini hariç tut
+node_modules/
+
+# uploads dizinini hariç tut
+uploads/
+
+# .env dosyasını hariç tut
+.env
