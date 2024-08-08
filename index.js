@@ -11,7 +11,7 @@ dotenv.config();
 connectDb();
 
 const port = process.env.PORT || 5001;
-const host = "192.168.1.113"; // LAN IP adresi ipconfig ile öğrenebilirsin IPv4 olan kısım
+const host = process.env.HOST;
 
 const app = express();
 
